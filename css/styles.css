@@ -215,6 +215,16 @@ a {
   padding-top: 64px;
 }
 
+.hero .btn-secondary {
+  border-color: var(--white);
+  color: var(--white);
+}
+
+.hero .btn-secondary:hover {
+  background: var(--white);
+  color: var(--black);
+}
+
 .hero .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.14em;
@@ -367,11 +377,18 @@ h2 {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 12px 16px;
+  margin: 0;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
   background: linear-gradient(0deg, rgba(10,10,10,0.85), transparent);
   color: var(--white);
   font-size: 0.85rem;
   font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* ---------- Strip (home featured photos) ---------- */
