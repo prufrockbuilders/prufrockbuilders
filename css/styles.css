@@ -198,7 +198,7 @@ a {
   min-height: 78vh;
   display: flex;
   align-items: flex-end;
-  background: var(--black) url("../images/ground-up-construction-framing.jpg") center 75% / cover no-repeat;
+  background: var(--black) url("../images/exterior-finished-weathered.jpg") center 70% / cover no-repeat;
 }
 
 .hero::before {
