@@ -68,11 +68,11 @@
           <dd><a href="https://share.google/Ufjrz8kw15ekmG0tK" target="_blank" rel="noopener">Google Listing &amp; Reviews</a></dd>
         </dl>
       </div>
-      <form class="contact-form" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thank-you.html">
-        <input type="hidden" name="form-name" value="contact" />
-        <p style="display: none;">
-          <label>Don't fill this out if you're human: <input name="bot-field" /></label>
-        </p>
+      <form class="contact-form" method="POST" action="https://api.web3forms.com/submit">
+        <input type="hidden" name="access_key" value="9a25ce69-8b38-42e1-befe-0bd65da005ce" />
+        <input type="hidden" name="subject" value="New Contact Request from prufrockbuilders.com" />
+        <input type="hidden" name="redirect" value="https://prufrockbuilders.com/thank-you.html" />
+        <input type="checkbox" name="botcheck" style="display: none;" tabindex="-1" autocomplete="off" />
         <div>
           <label for="name">Name</label>
           <input type="text" id="name" name="name" required />
