@@ -628,3 +628,19 @@ form.contact-form {
   width: 100%;
   margin-top: 24px;
 }
+
+.partner-badge {
+  display: inline-block;
+  margin-top: 16px;
+  opacity: 0.9;
+  transition: opacity 0.15s ease;
+}
+
+.partner-badge img {
+  height: 28px;
+  width: auto;
+}
+
+.partner-badge:hover {
+  opacity: 1;
+}
