@@ -595,10 +595,27 @@ form.contact-form {
 
 .site-footer .wrap {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 16px 24px;
+}
+
+.site-footer .footer-links {
+  margin-left: auto;
+}
+
+.site-footer .copyright {
+  flex-basis: 100%;
+}
+
+@media (max-width: 780px) {
+  .site-footer .wrap {
+    justify-content: center;
+    text-align: center;
+  }
+  .site-footer .footer-links {
+    margin-left: 0;
+  }
 }
 
 .site-footer .brand img {
@@ -631,7 +648,6 @@ form.contact-form {
 
 .partner-badge {
   display: inline-block;
-  margin-top: 16px;
   opacity: 0.9;
   transition: opacity 0.15s ease;
 }
