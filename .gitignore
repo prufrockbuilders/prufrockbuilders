@@ -12,3 +12,8 @@ images/Window expansion to bring in the light.JPG
 images/NYC Office Build Out.png
 images/Office Demolition .png
 images/Blog 1 image.png
+
+# Office/working files should never be published
+*.pptx
+*.docx
+*.xlsx
